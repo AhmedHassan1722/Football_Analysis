@@ -9,6 +9,7 @@
 *.mkv
 !input_videos/.gitkeep
 !output_videos/.gitkeep
+!output_videos/demo_screenshot.png
 
 # Python
 __pycache__/
