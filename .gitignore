@@ -1,0 +1,52 @@
+# Model files
+*.pt
+!models/.gitkeep
+
+# Video files
+*.avi
+*.mp4
+*.mov
+*.mkv
+!input_videos/.gitkeep
+!output_videos/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+FB/
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project specific
+stubs/*.pkl
+output_videos/*.avi
+runs/
+training/runs/
+development_and_analysis/*.ipynb

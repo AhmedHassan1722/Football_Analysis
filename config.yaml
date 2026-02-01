@@ -1,0 +1,38 @@
+# Video Configuration
+video:
+  input_path: "input_videos/WhatsApp Video 2025-12-14 at 09.56.24_7c2d2ca1.mp4"
+  output_path: "output_videos/output_video.avi"
+  fps: 24.0  # Frames per second of the video
+
+# Model Configuration
+model:
+  path: "models/best.pt"
+  confidence_threshold: 0.1  # Detection confidence threshold
+
+# Tracking Configuration
+tracking:
+  use_cache: true
+  cache_path: "stubs/track_stubs.pkl"
+  
+# Player Statistics Configuration
+player_stats:
+  pixel_to_meter: 0.1  # Calibration factor for distance/speed (adjust based on your video)
+  speed_smoothing_frames: 5  # Number of frames for speed moving average
+  
+# Visualization Configuration
+visualization:
+  show_player_ids: true
+  show_distance: true
+  show_speed: true
+  show_ball_possession: true
+  show_team_stats: true
+  
+  # Colors (BGR format for OpenCV)
+  referee_color: [255, 255, 0]  # Yellow
+  ball_color: [0, 255, 0]  # Green
+  possession_color: [0, 0, 255]  # Red
+  
+# Output Configuration
+output:
+  create_output_dir: true
+  video_codec: "XVID"  # Video codec for output
