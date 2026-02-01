@@ -18,6 +18,12 @@ A comprehensive AI-powered football analysis system that tracks players, ball, a
 - **📊 Visual Analytics**: Rich visualization with player IDs, team colors, stats overlay
 - **💾 Caching System**: Stub-based caching for fast reprocessing
 
+## 🎬 Demo
+
+![Football Analysis Demo](output_videos/demo_screenshot.png)
+
+*Example output showing player tracking with IDs, distance traveled, speed, team colors, and ball possession indicators*
+
 ## 🚀 Quick Start
 
 ### Prerequisites
